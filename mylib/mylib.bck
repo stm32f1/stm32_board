@@ -1,0 +1,42 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP CP_S
+D Polarised capacitor
+$ENDCMP
+#
+$CMP C_S
+D Unpolarized capacitor
+$ENDCMP
+#
+$CMP LED_S
+D Led
+$ENDCMP
+#
+$CMP R_S
+D Resistor
+$ENDCMP
+#
+$CMP R_side
+D Resistor
+$ENDCMP
+#
+$CMP Regul_3.3V
+D Linear Regulator +5V
+K POWER REGUL
+F regulator\lm78xx.pdf
+$ENDCMP
+#
+$CMP TACT_SW_4
+D Interrupteur simple
+K switch
+$ENDCMP
+#
+$CMP VDDA
+K POWER, PWR
+$ENDCMP
+#
+$CMP VIN
+K POWER, PWR
+$ENDCMP
+#
+#End Doc Library
